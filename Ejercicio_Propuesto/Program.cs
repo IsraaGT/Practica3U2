@@ -1,0 +1,13 @@
+﻿int Num1, Num2;
+double result;
+string linea;
+Console.WriteLine("AGREGUE EL PRIMER NUMERO");
+linea = Console.ReadLine();
+Num1 = int.Parse(linea);
+Console.WriteLine("Agregue el segundo numero");
+linea = Console.ReadLine();
+Num2 = int.Parse(linea);
+result = (Num1 + Num2) * (Num1 - Num2);
+Console.WriteLine();
+Console.WriteLine("El resultado es :" + result);
+Console.ReadKey();
